@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-full flex justify-center items-center h-screen">
+        <div style="background-image: url(./bg.jpg);" class="bg-no-repeat h-screen w-[70%] flex">
+            <div class="w-full flex justify-center">
+                <div class="flex-col w-full">
+
+                    <div class="w-full flex justify-center">
+                        <div class="mt-12 w-full lg:w-[600px] border rounded-md bg-[#0000001a] h-32 border-transparent flex justify-center">
+                            <h3 class="text-center font-bold text-4xl lg:text-5xl flex items-center text-[#fffffff0]">PATTERNS</h3>
+                        </div>
+                    </div>
+                    
+                    <!-- 1/2 -->
+                    <div class="w-full flex flex-col lg:flex-row mt-12 justify-around">
+            
+                        <!-- ul/li -->
+                        <div class="bg-[#15151594] p-12 rounded-md border border-[#0000000b] flex flex-col justify-between">
+                            <h3 class="text-lg font-semibold text-[#fff]">- Crypto</h3>
+                            <h3 class="text-lg font-semibold text-[#fff]">- (Coin | Bitcoin)</h3>
+                            <h3 class="text-lg font-semibold text-[#fff]">- Blockworks (Market | Coin | Crypto)</h3>
+                            <h3 class="text-lg font-semibold text-[#fff]">- Blockworks (Market | Coin | Crypto)</h3>
+                            <h3 class="text-lg font-semibold text-[#fff]">- Blockworks (Market | Coin | Crypto)</h3>
+         
+                        </div>
+            
+                        <!-- inputs -->
+                        <div>
+                            
+                            <!-- 1 -->
+                            <div class="mt-12 lg:mt-0">
+                                <form>   
+                                    <div class="w-[full] lg:w-[300px] border rounded-md bg-[#0000001a] h-12 border-transparent flex justify-center mb-2">
+                                        <h3 class="text-center font-bold text-3xl flex items-center text-[#fffffff0]">PATTERN</h3>
+                                    </div>
+                                    <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+                                    <div class="relative">
+                                        <input type="search" id="search" class="block w-full p-1 sm:p-3 lg:p-1 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500" placeholder="Pattern" required>
+                                        <button type="submit" class="text-white w-full mt-2 right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2">ADD</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- 2 -->
+                            <div class="mt-12">
+                                <form>   
+                                    <div class="w-full lg:w-[300px] border rounded-md bg-[#15151594] h-12 border-transparent flex justify-center mb-2">
+                                        <h3 class="text-center font-bold text-3xl flex items-center text-[#fffffff0]">EDIT PATTERN</h3>
+                                    </div>
+                                    <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"></label>
+                                    
+                                    <div class="mt-2">
+                                        <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">ADD</label>
+                                        <div class="relative">
+                                            <input type="search" id="search" class="block w-full p-1 sm:p-3 lg:p-1 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 " placeholder="Old Pattern" required>
+                                        </div>
+                                    </div>
+                                    <div class="relative mt-2">
+                                        <input type="search" id="search" class="block w-full p-1 sm:p-3 lg:p-1 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500" placeholder="New Pattern" required>
+                                        <button type="submit" class="text-white w-full mt-2 right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2">EDIT</button>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!-- 3 -->
+                            <div class="mt-12">
+                                <form>   
+                                    <div class="w-full lg:w-[300px] border rounded-md bg-[#0000001a] h-12 border-transparent flex justify-center mb-2">
+                                        <h3 class="text-center font-bold text-3xl flex items-center text-[#fffffff0]">DELETE PATTERN</h3>
+                                    </div>
+                                    <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">ADD</label>
+                                    <div class="relative">
+                                        <input type="search" id="search" class="block w-full p-1 sm:p-3 lg:p-1 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-red-500" placeholder="Delete" required>
+                                        <button type="submit" class="text-white w-full mt-2 right-2.5 bottom-2.5 bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-4 py-2">DELETE</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
